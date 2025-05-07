@@ -6,7 +6,6 @@ services:
       - "5678:5678"
     environment:
       - N8N_HOST=n8n.softsystem.dev
-      - N8N_PORT=5678
       - N8N_PROTOCOL=https
       - DB_TYPE=postgresdb
       - DB_POSTGRESDB_HOST=postgresql
